@@ -101,7 +101,7 @@ const buildChart = async (municipality) => {
     datasets: theData
   }
   
-  const chart = new frappe.Chart("#chart", {
+  const chart = new Chart("#chart", {
     title: "Finnish population",
     data: chartData,
     type: 'line', 

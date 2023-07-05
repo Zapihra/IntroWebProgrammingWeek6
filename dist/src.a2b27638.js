@@ -282,7 +282,7 @@ var buildChart = /*#__PURE__*/function () {
             labels: labels,
             datasets: theData
           };
-          chart = new frappe.Chart("#chart", {
+          chart = new _frappeCharts.Chart("#chart", {
             title: "Finnish population",
             data: chartData,
             type: 'line',
