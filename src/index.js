@@ -1,6 +1,5 @@
 import "./styles.css";
-import "../node_modules/frappe-charts/";
-import { Chart } from "frappe-charts/dist/frappe-charts.min.esm"
+import { Chart } from "../node_modules/frappe-charts/dist/frappe-charts.min.esm";
 const fetchButton = document.getElementById("submit-data");
 
 const getData = async(code) => {
