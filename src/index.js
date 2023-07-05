@@ -1,4 +1,5 @@
 import "./styles.css";
+import "frappe-charts/dist/frappe-charts.min.css";
 import { Chart } from "frappe-charts/dist/frappe-charts.min.esm"
 const fetchButton = document.getElementById("submit-data");
 
