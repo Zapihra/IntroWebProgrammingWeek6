@@ -78,7 +78,6 @@ const getData = async(code) => {
   
   return data;
 
-  
 }
 
 const buildChart = async (municipality) => {
